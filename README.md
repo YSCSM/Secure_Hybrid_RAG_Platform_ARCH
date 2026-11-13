@@ -94,8 +94,8 @@ Each layer depends only on interfaces, so retrievers, vector stores, rerankers a
 
 ## Further documentation
 
-- [Security & compliance model](docs/security.md)
-- [Evaluation approach](docs/evaluation.md)
+- [Security & compliance model](security.md)
+- [Evaluation approach](evaluation.md)
 
 ## Technology
 
