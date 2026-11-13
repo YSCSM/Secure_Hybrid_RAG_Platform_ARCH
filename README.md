@@ -87,10 +87,10 @@ Each layer depends only on interfaces, so retrievers, vector stores, rerankers a
 | ADR | Decision |
 |---|---|
 | [0001](adr/0001-hybrid-retrieval.md) | Use hybrid retrieval (BM25 + vector) instead of vector-only search |
-| [0002](docs/adr/0002-semantic-caching.md) | Add a semantic cache in front of retrieval and generation |
-| [0003](docs/adr/0003-guardrails-and-audit-logging.md) | Treat guardrails and audit logging as core layers, not middleware add-ons |
-| [0004](docs/adr/0004-layered-pluggable-architecture.md) | Layered architecture with provider-agnostic interfaces |
-| [0005](docs/adr/0005-evaluation-as-release-gate.md) | Automated RAG evaluation as a release gate |
+| [0002](adr/0002-semantic-caching.md) | Add a semantic cache in front of retrieval and generation |
+| [0003](adr/0003-guardrails-and-audit-logging.md) | Treat guardrails and audit logging as core layers, not middleware add-ons |
+| [0004](adr/0004-layered-pluggable-architecture.md) | Layered architecture with provider-agnostic interfaces |
+| [0005](adr/0005-evaluation-as-release-gate.md) | Automated RAG evaluation as a release gate |
 
 ## Further documentation
 
