@@ -55,7 +55,7 @@ flowchart LR
     IDX -.-> RET
 ```
 
-More detail: [docs/architecture.md](docs/architecture.md)
+More detail: [architecture.md](architecture.md)
 
 ## Key capabilities
 
@@ -80,7 +80,7 @@ More detail: [docs/architecture.md](docs/architecture.md)
 | `observability` | Tracing, structured logs, audit records |
 | `evals` | Evaluation datasets, metrics, regression gates |
 
-Each layer depends only on interfaces, so retrievers, vector stores, rerankers and LLM providers can be swapped without touching the API. See [ADR-0004](docs/adr/0004-layered-pluggable-architecture.md).
+Each layer depends only on interfaces, so retrievers, vector stores, rerankers and LLM providers can be swapped without touching the API. See [ADR-0004](adr/0004-layered-pluggable-architecture.md).
 
 ## Architecture Decision Records
 
